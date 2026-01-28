@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
-$username = "root";
-$password = null;
-$database = "crud";
+$servername = "project-db.czt0dheppn3x.us-east-1.rds.amazonaws.com";
+$username = "admin";
+$password = "lab-password";
+$database = "Project_DB";
+
 
 $conn = mysqli_connect($host, $username, $password, $database);
 
@@ -12,5 +13,6 @@ if (!$conn) {
 else{
     // echo "Connection successfull";
 }
+
 
 ?>
